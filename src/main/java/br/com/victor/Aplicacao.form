@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="br.com.victor.Aplicacao">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="736" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-lowered" title-justification="2" title-position="2"/>
+    <children>
+      <component id="f30e2" class="javax.swing.JButton" binding="button_getDeck">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pegue um deck novo"/>
+        </properties>
+      </component>
+      <component id="f8bea" class="javax.swing.JLabel" binding="info_getDeck">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pressione o botão abaixo para começarmos. Ele irá gerar um baralho que virá embaralhado da API."/>
+        </properties>
+      </component>
+      <component id="40a96" class="javax.swing.JLabel" binding="info_getACard">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Pressione o botão abaixo depois de criar um deck novo. O botão abaixo irá comprar um carta do Deck já existente."/>
+        </properties>
+      </component>
+      <component id="c1c2a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="2"/>
+          <opaque value="true"/>
+          <text value="Informações sobre o Baralho comprado"/>
+        </properties>
+      </component>
+      <component id="c07e3" class="javax.swing.JLabel" binding="label_deck_id">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Deck id:"/>
+        </properties>
+      </component>
+      <component id="e92e6" class="javax.swing.JLabel" binding="label_restantes">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Restam:"/>
+        </properties>
+      </component>
+      <grid id="f4d1d" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="ab8cd">
+            <constraints>
+              <grid row="0" column="2" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="22d47">
+            <constraints>
+              <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="26717" class="javax.swing.JButton" binding="mostrarCompradasButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <label value="Mostrar todas cartas compradas."/>
+              <text value="Mostrar todas cartas compradas."/>
+            </properties>
+          </component>
+          <component id="89f4d" class="javax.swing.JButton" binding="button_drawACard">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Compre uma carta"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

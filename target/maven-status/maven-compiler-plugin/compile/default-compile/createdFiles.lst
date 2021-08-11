@@ -1,0 +1,13 @@
+br\com\victor\Main.class
+br\com\victor\Aplicacao$2.class
+br\com\victor\Aplicacao$3.class
+br\com\victor\Aplicacao.class
+br\com\victor\service\CardService.class
+br\com\victor\model\Card.class
+br\com\victor\dao\DeckDAO.class
+br\com\victor\model\DeckModel.class
+br\com\victor\service\DeckService.class
+br\com\victor\model\CardModel.class
+br\com\victor\Aplicacao$1.class
+br\com\victor\dao\CardDAO.class
+br\com\victor\utils\Utils.class
